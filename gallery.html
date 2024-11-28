@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Index2.css">
+    <title>Galería - Nature Defender</title>
+</head>
+<body>
+    <header>
+        <a href="index.html" class="logo">Nature Defender</a>
+        <nav>
+            <a href="index.html">Inicio</a>
+            <a href="gallery.html" class="active">Galería</a>
+            <a href="download.html">Descarga</a>
+            <a href="characters.html">Personajes</a>
+            <a href="purpose.html">Propósito</a>
+            <a href="contact.html">Contacto</a>
+        </nav>
+    </header>
+
+    <section id="gallery">
+        <h2>Seccion de Galería</h2>
+        <p><strong>Explora nuestra galería</strong>.</p>
+         <!-- Contenedor de Video -->
+         <div class="container">
+            <!-- Contenedor del video -->
+            <div class="video-container">
+                <video controls>
+                    <source src="Video.mp4" type="video/mp4">
+                    Tu navegador no soporta la reproducción de videos.
+                </video>
+            </div>
+
+    <!-- Galería de Imágenes -->
+    <div class="container">
+        <!-- Contenedor del carrusel -->
+        <div class="carousel-container">
+            <span class="carousel-navigation left-nav" onclick="scrollCarousel(-1)">&#9664;</span> <!-- Botón izquierdo -->
+            <div class="carousel-images" id="carousel">
+                <img src="Logodeljuego.png" alt="">
+                <img src="personaje principal.jpg" alt="">
+                <img src="camino.jpg" alt="">
+                <img src="cargando.jpg" alt="">
+                <img src="personaje.jpg" alt="">
+                <img src="enemy.png" alt="">
+                <img src="villano_2.png" alt="">
+                <img src="villano_nuevo.png" alt="">
+            </div>
+            <span class="carousel-navigation right-nav" onclick="scrollCarousel(1)">&#9654;</span> <!-- Botón derecho -->
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Nombre del Juego. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
